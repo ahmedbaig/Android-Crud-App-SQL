@@ -3,6 +3,11 @@ package com.kashmire.ahmedbaig.crudapp.utils;
 public class contact {
     private String name, email, pass, phone;
 
+    public contact(String email, String pass) {
+        this.email = email;
+        this.pass = pass;
+    }
+
     public contact(String name, String email, String pass, String phone) {
         this.name = name;
         this.email = email;

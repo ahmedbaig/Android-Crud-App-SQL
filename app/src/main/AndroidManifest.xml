@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".views.Register"></activity>
+        <activity android:name=".views.NoteDetail"></activity>
+        <activity android:name=".views.Notes"></activity>
     </application>
 
 </manifest>
